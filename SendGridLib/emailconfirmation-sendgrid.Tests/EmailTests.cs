@@ -14,12 +14,12 @@ namespace emailconfirmation_sendgrid.Tests
             Assert.Equal(expectedEmail);
         }
 
-        [Fact]
-        public void PassingTest()
-        {
-            Assert.True(x);
+    //    [Fact]
+      //  public void PassingTest()
+        //{
+          //  Assert.True(x);
             
-        }
+        //}
         string passEmail(string x)
         {
             return x;
