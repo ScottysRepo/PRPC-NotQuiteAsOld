@@ -15,7 +15,7 @@ C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.TagHelpers.input.c
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.TagHelpers.output.cache
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.RazorCoreGenerate.cache
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
-C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.g.cshtml.cs
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs

@@ -11,12 +11,12 @@ namespace PRPC.Controllers
 {
     public class HomeController : Controller
     {
-         [HttpPost]
+        // [HttpPost]
         public IActionResult Index()
         {
           //  var model = PRPC.LoginViewModel(userName, passWord);
            // return View(model);
-           LoginViewModel rec = new LoginViewModel{
+        /* LoginViewModel rec = new LoginViewModel{
                userName = "abc"
            };
             string savedUserName = "abc";
@@ -27,6 +27,7 @@ namespace PRPC.Controllers
                 Console.WriteLine("Successful Login");
             }
             ViewData["Message"] = rec;
+            */   
             return View();
         }
 
@@ -37,9 +38,9 @@ namespace PRPC.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Register()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your register page.";
 
             return View();
         }
@@ -49,11 +50,11 @@ namespace PRPC.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+      //  [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+      //  public IActionResult Error()
+       // {
+       //     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+       // }
 
         public ActionResult SaveUser(LoginViewModel model, string userName){
             //PRPC  db = new PRPC();

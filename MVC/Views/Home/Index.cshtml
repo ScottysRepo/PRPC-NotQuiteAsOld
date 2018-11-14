@@ -1,44 +1,65 @@
-﻿ @model MVC.Models.LoginViewModel
-
+﻿
 @{
     ViewData["Title"] = "Home Page";
 }
 
  <h1>Login</h1>
 <hr />
-@{
-    var data =(LoginViewModel)ViewData["Message"];
-}
+
 <div class="row">
-   
-    <div class="col-md-4">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-               <label for="userName">User Name</label>
-                <input class="form-control" id="userName" type="text" data-val="true" data-val-required="The User name field is required.">
-                <br>
-                
-                <label for="password">Password</label>
-                <input class="form-control" id="password" type="password" data-val="true" data-val-required="The Password field is required." >
-                <br>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Submit" class="btn btn-primary" />
-            </div>
-            <br>
-           
-            @Html.ActionLink("Forgot Password?", "About") 
-            <br>
-            New? @Html.ActionLink(" Register Here", "Contact")
-            </div>
-        </form>
-    </div>
-</div>
-
+   <div class="col-md-8 col-lg-6">
+       <section>
+           <form method="post" action ="Home/Privacy" nonvalidate="nonvalidate">
+                <!--event -->
+                <h4>Use a local account to log in.</h4>
+                <hr>
+                <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                    <ul>
+                        <li style="display:none"></li>
+                    </ul>
+                </div>
+                <div class="form-group bmd-form-grou">
+                    <label class="bmd-label-static" for ="Email">Email</label>
+                    <input id="Email" class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email fied is required." name ="Email" value="">
+                    <!--event-->
+                </div>
+                <div class="form-group bmd-form-group">
+                    <label class="bmd-label-static" for="Password">Password</label>
+                    <input id="Password" class="form-control" type="password" data-val="true" data-val-required="The Password field is required." name="Password">
+                    <!--event-->
+                    <span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                </div>
+                <div class="form-group">
+                    <button class ="btn btn-success" type="submit">Log in</button>
+                <!--Event -->
+                </div>
+                <div class="form-group bmd-form-group is-filled">
+                    <div class="checkbox">
+                        <label for="RememberMe">
+                            <!--Event-->
+                            <input id="RememberMe" type="checkbox" data-val="true" data-val-required="The Remember me? field is required." name="RememberMe" value="true">
+                            <!--Event-->
+                            <span class="checkbox-decorator">
+                                <span class="check"></span>
+                            </span>
+                            Remember me?
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <a href="Home/About">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <a href="Home/Register">Register as a new user?</a>
+                    </p>
+                </div>
+           </form>
+       </section>
+   </div>
+    
 <div class="footer"></div>
-               <h3> username: @data.userName</h3> 
-
+              
 
 
  
