@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rebecca Vengen\\PRPC\\PRPC.csproj",
+      "projectUniqueName": "C:\\Users\\Rebecca Vengen\\PRPC\\MVC\\PRPC.csproj",
       "projectName": "PRPC",
-      "projectPath": "C:\\Users\\Rebecca Vengen\\PRPC\\PRPC.csproj",
+      "projectPath": "C:\\Users\\Rebecca Vengen\\PRPC\\MVC\\PRPC.csproj",
       "packagesPath": "C:\\Users\\Rebecca Vengen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rebecca Vengen\\PRPC\\obj\\",
+      "outputPath": "C:\\Users\\Rebecca Vengen\\PRPC\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
