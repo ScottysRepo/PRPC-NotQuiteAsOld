@@ -1,12 +1,13 @@
-﻿ @model MVC.Models.LoginViewModel;
- @model PRPC.Models.Login
+﻿ @model MVC.Models.LoginViewModel
+
 @{
     ViewData["Title"] = "Home Page";
 }
 
  <h1>Login</h1>
 <hr />
-@using(Html.BeginForm()
+@{
+    var data =(LoginViewModel)ViewData["Message"];
 }
 <div class="row">
    
@@ -36,4 +37,8 @@
 </div>
 
 <div class="footer"></div>
+               <h3> username: @data.userName</h3> 
+
+
+
  

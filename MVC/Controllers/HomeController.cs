@@ -11,16 +11,22 @@ namespace PRPC.Controllers
 {
     public class HomeController : Controller
     {
-         
+         [HttpPost]
         public IActionResult Index()
         {
+          //  var model = PRPC.LoginViewModel(userName, passWord);
+           // return View(model);
+           LoginViewModel rec = new LoginViewModel{
+               userName = "abc"
+           };
             string savedUserName = "abc";
-            string userName {get; set;}
+            
             if(userName != savedUserName){
                 Console.WriteLine("Invalid username");
             }else if(userName == savedUserName){
                 Console.WriteLine("Successful Login");
             }
+            ViewData["Message"] = rec;
             return View();
         }
 
