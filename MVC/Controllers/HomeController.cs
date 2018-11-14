@@ -6,12 +6,21 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PRPC.Models;
 
+
 namespace PRPC.Controllers
 {
     public class HomeController : Controller
     {
+         
         public IActionResult Index()
         {
+            string savedUserName = "abc";
+            string userName {get; set;}
+            if(userName != savedUserName){
+                Console.WriteLine("Invalid username");
+            }else if(userName == savedUserName){
+                Console.WriteLine("Successful Login");
+            }
             return View();
         }
 
@@ -38,6 +47,12 @@ namespace PRPC.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public ActionResult SaveUser(LoginViewModel model, string userName){
+            //PRPC  db = new PRPC();
+
+            return View();
         }
     }
 }

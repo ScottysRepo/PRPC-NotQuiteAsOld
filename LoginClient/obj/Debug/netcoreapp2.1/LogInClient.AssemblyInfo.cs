@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LogInClient")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LoginClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LogInClient")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LogInClient")]
+[assembly: System.Reflection.AssemblyProductAttribute("LoginClient")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LoginClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

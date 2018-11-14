@@ -6,19 +6,19 @@ namespace LoginLibrary
     {
         //This checks to see if the password matches the password from the database
         //Probably needs to specify where password comes fomr
-        public string PasswordVerify(string inputtedPassword)
+        public string PasswordVerify(string enteredPassword)
         {
             string password = "abc123";
-            string userName = "Bob";
-            if(inputtedPassword != password){
+            string userName = "abc";
+            if(enteredPassword != password){
                 Console.WriteLine("Incorrect password, please try again");
-                return inputtedPassword;
-            }else if(inputtedPassword == password){
+                return enteredPassword;
+            }else if(enteredPassword == password){
                 Console.WriteLine("LogIn successful! Welcome {0}",userName);
                 return password;
             }else{
                  Console.WriteLine("This account does not exist");
-                 return inputtedPassword;
+                 return enteredPassword;
             }
         }
         //This checks to see if the username and password match, 

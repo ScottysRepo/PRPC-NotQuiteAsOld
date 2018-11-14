@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
-
+//using System.Data.EntityFrameworkCore;
 
 namespace PRPC.Models
 {
@@ -15,6 +15,7 @@ namespace PRPC.Models
         [Required]
         [Display(Name = "Username")]
         public string userName { get; set; }
+        
 
         [StringLength(60, MinimumLength = 3)]
         [Required]
@@ -24,21 +25,7 @@ namespace PRPC.Models
         [Display(Name = "Email address")]
         [StringLength(60, MinimumLength = 7)]
         public string emailAddress { get; set; }
-/*Don't really need for login, but may need for registration
-        [Range(1, 100)]
-        //[DataType(DataType.Currency)]
-        [Column(TypeName = "char(10, 0)")]
-        public char phoneNumber { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
-        [Required]
-        [StringLength(30)]
-        public string firstName { get; set; }
-
-        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
-        [StringLength(5)]
-        [Required]
-        public string lastName { get; set; }
-         */
+        
     } 
 }
