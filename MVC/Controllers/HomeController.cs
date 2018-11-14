@@ -31,7 +31,7 @@ namespace PRPC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult ForgotPassword()
         {
             ViewData["Message"] = "Your application description page.";
 
