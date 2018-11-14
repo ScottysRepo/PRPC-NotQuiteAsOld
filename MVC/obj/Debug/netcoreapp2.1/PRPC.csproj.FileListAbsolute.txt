@@ -29,4 +29,4 @@ C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.Views.pdb
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.dll
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.pdb
 C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\PRPC.csproj.CopyComplete
-C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Rebecca Vengen\PRPC\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\ForgotPassword.g.cshtml.cs
