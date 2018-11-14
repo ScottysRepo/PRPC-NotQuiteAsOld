@@ -1,0 +1,9 @@
+D:\PRPC-1\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
+D:\PRPC-1\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
+D:\PRPC-1\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
