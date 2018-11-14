@@ -7,3 +7,9 @@ D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.ca
 D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 D:\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+C:\PRPC\PRPC\PRPC-1\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

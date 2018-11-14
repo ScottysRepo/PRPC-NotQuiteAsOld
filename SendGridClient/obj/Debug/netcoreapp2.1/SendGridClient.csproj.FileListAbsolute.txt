@@ -12,3 +12,5 @@ D:\PRPC-1\SendGridCLient\obj\Debug\netcoreapp2.1\SendGridClient.pdb
 D:\PRPC-1\SendGridCLient\bin\Debug\netcoreapp2.1\SendGridLib.dll
 D:\PRPC-1\SendGridCLient\bin\Debug\netcoreapp2.1\SendGridLib.pdb
 D:\PRPC-1\SendGridCLient\obj\Debug\netcoreapp2.1\SendGridClient.csproj.CopyComplete
+C:\PRPC\PRPC\PRPC-1\SendGridCLient\obj\Debug\netcoreapp2.1\SendGridClient.dll
+C:\PRPC\PRPC\PRPC-1\SendGridCLient\obj\Debug\netcoreapp2.1\SendGridClient.pdb
