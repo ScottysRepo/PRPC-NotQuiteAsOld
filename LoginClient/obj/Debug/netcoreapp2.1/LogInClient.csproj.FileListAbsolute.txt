@@ -1,0 +1,14 @@
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LogInClient.deps.json
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LogInClient.runtimeconfig.json
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LogInClient.runtimeconfig.dev.json
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LogInClient.dll
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LogInClient.pdb
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.csproj.CoreCompileInputs.cache
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.AssemblyInfoInputs.cache
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.AssemblyInfo.cs
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.dll
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LogInClient.pdb
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LoginLibrary.dll
+C:\Users\Rebecca Vengen\PRPC\LoginClient\bin\Debug\netcoreapp2.1\LoginLibrary.pdb
+C:\Users\Rebecca Vengen\PRPC\LoginClient\obj\Debug\netcoreapp2.1\LoginClient.csproj.CopyComplete
