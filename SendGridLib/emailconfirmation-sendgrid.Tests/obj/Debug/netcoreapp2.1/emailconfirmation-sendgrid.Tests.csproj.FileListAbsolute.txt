@@ -1,0 +1,4 @@
+C:\PRPC-emailconfirmation-sendgrid\emailconfirmation-sendgrid.Tests\obj\Debug\netcoreapp2.1\emailconfirmation-sendgrid.Tests.csprojAssemblyReference.cache
+C:\PRPC-emailconfirmation-sendgrid\emailconfirmation-sendgrid.Tests\obj\Debug\netcoreapp2.1\emailconfirmation-sendgrid.Tests.csproj.CoreCompileInputs.cache
+C:\PRPC-emailconfirmation-sendgrid\emailconfirmation-sendgrid.Tests\obj\Debug\netcoreapp2.1\emailconfirmation-sendgrid.Tests.AssemblyInfoInputs.cache
+C:\PRPC-emailconfirmation-sendgrid\emailconfirmation-sendgrid.Tests\obj\Debug\netcoreapp2.1\emailconfirmation-sendgrid.Tests.AssemblyInfo.cs
