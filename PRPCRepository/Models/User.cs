@@ -10,5 +10,6 @@ namespace PRPCRepository.Models
             public string lastName {get; set;}
             public string password {get; set;}
             public string email {get; set;}
+            public int phoneNumber {get; set;}
         }
 }
